@@ -1,0 +1,25 @@
+ul.list-items{
+  font-family: 'Arial', sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li{
+
+    border: 1px solid #444444;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+
+    &.active,
+    &:hover,
+    &:active,
+    &:focus{
+      background-color: #333333;
+      color: #ffffff;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+    }
+  }
+}

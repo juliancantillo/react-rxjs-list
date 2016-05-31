@@ -1,0 +1,48 @@
+{
+  "name": "react-rxjs-list",
+  "version": "1.0.0",
+  "description": "An item list with rxjs for events and react for dom manipulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "build": "NODE_ENV=production webpack -p --config webpack.config.production.babel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliancantillo/react-rxjs-list.git"
+  },
+  "keywords": [
+    "rxjs",
+    "reactjs",
+    "reactivex",
+    "list"
+  ],
+  "author": "JulianCantillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliancantillo/react-rxjs-list/issues"
+  },
+  "homepage": "https://github.com/juliancantillo/react-rxjs-list#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "babel-runtime": "^6.9.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "rxjs": "^5.0.0-beta.8"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
