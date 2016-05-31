@@ -1,3 +1,9 @@
+## The proyect
+
+Use ReactJS and RxJS for a list listening for arrow keys for select an item.
+
+The component holds the event listening using streams with an observer from RxJS.
+
 ## Step 1
 
 Install the libraries we are going to need:
@@ -31,4 +37,12 @@ stage of JavaScript the project could use.
 {
   "presets": ["es2015", "react"]
 }
+```
+
+## Step 3
+
+Add Style support for webpack
+
+```
+npm i css-loader node-sass sass-loader style-loader -D
 ```
